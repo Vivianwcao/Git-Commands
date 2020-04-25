@@ -1,0 +1,88 @@
+GitBash
+commands:
+
+1.find the folder/file:
+
+cd .. //move out out of current directoty/folder by 1 level
+
+cd//move to your user folder (main)
+cd folder_name // move into that directory
+ls -l//list the files in folders. Copy the exact folder name including ''
+dir//list the names of the folders/files of your current directory
+
+git init //turns the folder to a git repolsitory
+
+2.Git add + file name(add everytime there's change before commiting)
+git add index.html app.js//can add multiple files at once
+git status//check status of git for all the files
+
+//*create and switch to branch if pushing to branch* 
+git checkout -b branch_name//create and switch to this new branch 
+
+
+3. git commit
+
+git commit -m "" // insert commit message **if forgot message, enter :wq to escape 
+
+git log // check commit history
+
+
+4.Git Push 
+git remote add origin https://github.com/Vivianwcao/XXXX.git(run only once for each repository created) enter the url link you wish to push the branch to
+git push -u origin master (or branch_name) (only once, for loging into the GitHub account)
+git push
+
+
+
+5. New branch
+
+git checkout -b branch_name//create and switch to this new branch 
+
+git branch
+git branch -v
+git branch -a// show all the branch including hidden ones
+git statusit commit -m "a message"
+git push origin cssdocs // cssdocs is the new branch created
+git brach -D //delete the branch after
+
+
+on gitHub
+raise issue--choose label
+use github key words "fixed" "resolved"
+merge conflict
+
+
+Generic options
+    -v, --verbose         show hash and subject, give twice for upstream branch
+    -q, --quiet           suppress informational messages
+    -t, --track           set up tracking mode (see git-pull(1))
+    -u, --set-upstream-to <upstream>
+                          change the upstream info
+    --unset-upstream      unset the upstream info
+    --color[=<when>]      use colored output
+    -r, --remotes         act on remote-tracking branches
+    --contains <commit>   print only branches that contain the commit
+    --no-contains <commit>
+                          print only branches that don't contain the commit
+    --abbrev[=<n>]        use <n> digits to display SHA-1s
+
+Specific git-branch actions:
+    -a, --all             list both remote-tracking and local branches
+    -d, --delete          delete fully merged branch
+    -D                    delete branch (even if not merged)
+    -m, --move            move/rename a branch and its reflog
+    -M                    move/rename a branch, even if target exists
+    -c, --copy            copy a branch and its reflog
+    -C                    copy a branch, even if target exists
+    -l, --list            list branch names
+    --show-current        show current branch name
+    --create-reflog       create the branch's reflog
+    --edit-description    edit the description for the branch
+    -f, --force           force creation, move/rename, deletion
+    --merged <commit>     print only branches that are merged
+    --no-merged <commit>  print only branches that are not merged
+    --column[=<style>]    list branches in columns
+    --sort <key>          field name to sort on
+    --points-at <object>  print only branches of the object
+    -i, --ignore-case     sorting and filtering are case insensitive
+    --format <format>     format to use for the output
