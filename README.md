@@ -79,3 +79,7 @@ press Esc to make sure you are out of the insert mode
 then type :wqEnter or ZZ.
 Note that in VIM there are often several ways to do one thing. Here there is a slight difference though. :wqEnter always writes the current file before closing it, while ZZ, :xEnter, :xiEnter, :xitEnter, :exiEnter and :exitEnter only write it if the document is modified.
 All these synonyms just have different numbers of keypresses.
+
+Learn Git Branching
+An interactive Git visualization tool to educate and challenge!
+https://learngitbranching.js.org/
