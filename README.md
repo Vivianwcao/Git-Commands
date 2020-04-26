@@ -70,3 +70,11 @@ _A list of my commonly used Git commands_
 | `git log --summary` | View changes (detailed) |
 | `git log --oneline` | View changes (briefly) |
 | `git diff [source branch] [target branch]` | Preview changes before merging |
+
+If it is VIM for Windows, you can do the following:
+
+enter your message following the presented guidelines
+press Esc to make sure you are out of the insert mode
+then type :wqEnter or ZZ.
+Note that in VIM there are often several ways to do one thing. Here there is a slight difference though. :wqEnter always writes the current file before closing it, while ZZ, :xEnter, :xiEnter, :xitEnter, :exiEnter and :exitEnter only write it if the document is modified.
+All these synonyms just have different numbers of keypresses.
