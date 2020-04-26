@@ -71,6 +71,7 @@ _A list of my commonly used Git commands_
 | `git log --oneline` | View changes (briefly) |
 | `git diff [source branch] [target branch]` | Preview changes before merging |
 
+https://stackoverflow.com/questions/5599122/problems-with-entering-git-commit-message-with-vim
 If it is VIM for Windows, you can do the following:
 
 enter your message following the presented guidelines
